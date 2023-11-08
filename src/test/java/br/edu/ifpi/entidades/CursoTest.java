@@ -1,4 +1,4 @@
-package br.edu.ifpi;
+package br.edu.ifpi.entidades;
 
 public class CursoTest {
 
