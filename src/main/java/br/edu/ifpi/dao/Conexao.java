@@ -8,9 +8,9 @@ public class Conexao {
 
   public static Connection getConexao() {
     try {
-      Connection conexcao = DriverManager
-          .getConnection("jdbc:postgresql://localhost:5432/jdbc_aula", "postgres", "12345");
-      return conexcao;
+      Connection conexao = DriverManager.getConnection("jdbc:postgresql://localhost:5432/jdbc_aula",
+          "postgres", "12345");
+      return conexao;
     } catch (SQLException e) {
       e.printStackTrace();
     }
